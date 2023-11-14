@@ -3,8 +3,60 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .image-container {
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+    }
+  </style>
 </head>
+<body>
+
+  <!-- Bootstrap container -->
+  <div class="container-fluid">
+
+    <!-- First row with 12 columns -->
+    <div class="row image-container">
+      <div class="col-sm-1">
+        <img src="https://via.placeholder.com/150" alt="Movie Image">
+      </div>
+      <!-- Repeat this div for the other 11 images -->
+      <!-- Example: -->
+      <!-- <div class="col-sm-1">
+        <img src="https://via.placeholder.com/150" alt="Movie Image">
+      </div> -->
+    </div>
+
+    <!-- Second row with 6 columns -->
+    <div class="row image-container">
+      <div class="col-sm-2">
+        <img src="https://via.placeholder.com/150" alt="Movie Image">
+      </div>
+      <!-- Repeat this div for the other 5 images -->
+    </div>
+
+    <!-- Third row with 3 columns -->
+    <div class="row image-container">
+      <div class="col-sm-4">
+        <img src="https://via.placeholder.com/150" alt="Movie Image">
+      </div>
+      <!-- Repeat this div for the other 2 images -->
+    </div>
+
+    <!-- Fourth row with 1 column -->
+    <div class="row image-container">
+      <div class="col-sm-12">
+        <img src="https://via.placeholder.com/150" alt="Movie Image">
+      </div>
+    </div>
+
+  </div>
 
 <body>
 	<!-- the entire body must be written by student -->
